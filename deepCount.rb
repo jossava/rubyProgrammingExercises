@@ -13,7 +13,7 @@ def dCount(list, c)
 	c
 end
 
-p deepCount([100,200])
+p deepCount([100,200])#2
 p deepCount([1, 2, 3])#3
 p deepCount(["x", "y", ["z"]])#4
-p deepCount([1, 2, [3, 4, [5,[[]]]]])#7
+p deepCount([1, 2, [3, 4, [5,[[]]]]])#9
